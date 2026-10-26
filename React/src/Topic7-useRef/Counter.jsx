@@ -19,9 +19,10 @@ const Counter = () => {
       </div>
       <div className="container">
         <h2>Ref Counter</h2>
-        <h3>CountRef:{countRef?.current}</h3>
+        {/* <h3>CountRef:{countRef?.current}</h3>   */}   //!  command se htn hai jab bhi use krn hai tab
         <button onClick={handleClick}>Add</button>
       </div>
+      
     </div>
   );
 };
@@ -51,3 +52,5 @@ export default Counter;
 // }
 
 // export default App;
+
+// !  skeleton ui  search in youtube and build this 
