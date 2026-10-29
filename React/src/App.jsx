@@ -6,7 +6,8 @@
 // import Counter from "./Topic7-useRef/Counter"
 // import SingUp from "./Topic8-Controlled from/SingUp"
 // import Login from "./Topic8-Controlled from/Login"
-import Toggle from "./Topic9-useEffect Hook/Toggle"
+// import Toggle from "./Topic9-useEffect Hook/Toggle"
+import Home from "./Topic10-Api Integration/Home"
 
 
 
@@ -31,8 +32,10 @@ const App = () => {
       {/* //!8 Controlled from*/}
       {/* <SingUp/> */}
       {/* <Login/> */}
-      {/* //! UseEffect Hook */}
-      <Toggle/>
+      {/* //! 9 UseEffect Hook */}
+      {/* <Toggle/> */}
+      {/* // ! DATA  Integration */}
+      <Home/>
     </div>
   )
 }
